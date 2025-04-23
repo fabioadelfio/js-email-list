@@ -5,3 +5,7 @@
   background-color: #ff000022;
   border: 2px dashed red;
 }
+
+#new-email-list-btn {
+  width: fit-content;
+}

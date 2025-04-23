@@ -15,6 +15,7 @@ function generateEmailList () {
     
                 // Creo un list item
                 const li = document.createElement(`li`);
+                li.classList.add(`list-group-item`, `fs-5`);
     
                 // Il list item che contiene l'email viene aggiunta all'email list
                 li.textContent = email;
